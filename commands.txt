@@ -1,0 +1,1 @@
+curl 'Content-Type: application/json' -d "@data.json" -X POST https://lqabgh536d.execute-api.us-east-1.amazonaws.com/dev
