@@ -1,0 +1,80 @@
+
+
+INIT_START Runtime Version: provided:al2023.v17	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:ec2aa62d8b5063b3b2024329b5fe0dcd31c1496cee81b251cbde94afabbe7dc4
+START RequestId: 0d017f72-9187-4736-85b4-d8b0039ad28c Version: $LATEST
+2024/05/30 00:58:58 Incoming Request: {
+"resource": "/{proxy+}",
+"path": "/test",
+"httpMethod": "POST",
+"headers": {
+"Host": "lqabgh536d.execute-api.us-east-1.amazonaws.com",
+"User-Agent": "curl/8.4.0",
+"X-Amzn-Trace-Id": "Root=1-6657cf52-2baad5cd412d50c25f47bef5",
+"X-Forwarded-For": "149.22.94.77",
+"X-Forwarded-Port": "443",
+"X-Forwarded-Proto": "https",
+"accept": "*/*",
+"content-type": "application/x-www-form-urlencoded"
+},
+"multiValueHeaders": {
+"Host": [
+"lqabgh536d.execute-api.us-east-1.amazonaws.com"
+],
+"User-Agent": [
+"curl/8.4.0"
+],
+"X-Amzn-Trace-Id": [
+"Root=1-6657cf52-2baad5cd412d50c25f47bef5"
+],
+"X-Forwarded-For": [
+"149.22.94.77"
+],
+"X-Forwarded-Port": [
+"443"
+],
+"X-Forwarded-Proto": [
+"https"
+],
+"accept": [
+"*/*"
+],
+"content-type": [
+"application/x-www-form-urlencoded"
+]
+},
+"queryStringParameters": null,
+"multiValueQueryStringParameters": null,
+"pathParameters": {
+"proxy": "test"
+},
+"stageVariables": null,
+"requestContext": {
+"accountId": "851725264083",
+"resourceId": "meuqvj",
+"stage": "dev",
+"domainName": "lqabgh536d.execute-api.us-east-1.amazonaws.com",
+"domainPrefix": "lqabgh536d",
+"requestId": "caac62ba-2d5d-4564-a493-1d25de1045b1",
+"extendedRequestId": "Yj1U6FObIAMEVig=",
+"protocol": "HTTP/1.1",
+"identity": {
+"sourceIp": "149.22.94.77",
+"userAgent": "curl/8.4.0"
+},
+"resourcePath": "/{proxy+}",
+"path": "/dev/test",
+"authorizer": null,
+"httpMethod": "POST",
+"requestTime": "30/May/2024:00:58:58 +0000",
+"requestTimeEpoch": 1717030738394,
+"apiId": "lqabgh536d"
+},
+"body": "{    \"key1\": \"value1\",    \"key2\": \"value2\"}"
+}
+2024/05/30 00:58:58 REGION: us-east-1
+2024/05/30 00:58:58 ALL ENV VARS:
+2024/05/30 00:58:58 REQUEST ID: 0d017f72-9187-4736-85b4-d8b0039ad28c
+2024/05/30 00:58:58 FUNCTION NAME: lambda-base
+2024/05/30 00:58:58 DEADLINE: 2024-05-30 00:59:01.785 +0000 UTC
+END RequestId: 0d017f72-9187-4736-85b4-d8b0039ad28c
+REPORT RequestId: 0d017f72-9187-4736-85b4-d8b0039ad28c	Duration: 2.10 ms	Billed Duration: 52 ms	Memory Size: 128 MB	Max Memory Used: 17 MB	Init Duration: 49.41 ms	

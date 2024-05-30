@@ -43,6 +43,8 @@ func handler(ctx context.Context, req events.APIGatewayProxyRequest) (events.API
 	deadline, _ := ctx.Deadline()
 	log.Printf("DEADLINE: %s", deadline)
 
+	log.Printf("Complete Request : %s", fmt.Sprintf("%v", req))
+
 	body := fmt.Sprintf("Hello, your Method is %s and your Path %s!", req.HTTPMethod, req.Path)
 	// body := "Hello, your Method is"
 
